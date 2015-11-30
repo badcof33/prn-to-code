@@ -1,0 +1,1723 @@
+;Address (CodedVal (Symbol
+; Heater function configuration
+0         9E        CHECKSUM
+1         32        T_GP_LFS_DURATION
+2         0A        CNF_BSPAI_A_KL30_SEN_T1_1
+3         14        CNF_BSPAI_A_CTS_T1
+4         0A        CNF_BSPAI_A_KL30_SEN_T1_2
+5         00        CONFIG_PARAMETERS
+6         96        U_GP_LFS_VOLT
+7         50        T_GP_LFS_MIN_PULSE_DURATION
+8         06        T_MOTOR_CHECK_1
+9         0A        T_MOTOR_CHECK_2
+A         2D        U_MOTOR_CHECK_1
+B         5A        U_MOTOR_CHECK_2
+C         1E        N_SANITY_LO
+D         59        PERCENT_GP_MODE_CHANGE
+E         64        CCTC_PI_PARA_KP
+F         14        CCTC_PI_PARA_TN
+10        01        CCTC_PI_PARA_TA
+11        27        CCTC_POWER_THRESHOLD_BO
+12        1C        CCTC_MIN_POWER
+13        32        CCTC_MAX_POWER
+14        64        T_GP_LFS_PERIOD
+15        64        PERCENT_ETHANOL
+16        9F        FACTOR_ETHANOL
+17        80        FACTOR_F_DP_DEVELOP
+18        3C        T_HEATING_DEFAULT
+19        42        T_HEATING_MAX
+1A        50        CCTC_MAX_POWER_GRAD_FALLING_CAF
+1B        50        CCTC_MAX_POWER_GRAD_RISING_CAF
+1C        7D        CCTC_MAX_POWER_GRAD_FALLING_DP
+1D        50        CCTC_MAX_POWER_GRAD_RISING_DP
+1E        0A        T_DP_PULSE_START
+1F        46        U_DP_PULSE_START
+20        46        U_DP_PULSE_RAS
+21        46        U_DP_PULSE_RAE
+22        02        NO_START_EXIT_PAUSE_MAX
+23        64        MID_ALTITUDE_CORR_FACTOR
+24        64        HIGH_ALTITUDE_CORR_FACTOR
+25        28        T_DP_MAIN_PULSE
+26        5A        CCTC_TEMP_TARGET_MIN
+27        7D        CCTC_TEMP_TARGET_MAX
+28        0A        CCTC_TEMP_TARGET_GRAD_RISING
+29        0A        CCTC_TEMP_TARGET_GRAD_FALLING
+2A        F0        T_FMCL
+2B        AA        N_FMCL
+2C        1C        PERCENT_R_FMCL
+2D        00        not supported
+2E        00        not supported
+2F        26        T_PGL_2_1
+30        28        N_PGL_2_1
+31        00        not supported
+32        CC        PERCENT_R_PGL_2_1
+33        00        not supported
+34        00        not supported
+35        26        T_PGL_2_2
+36        28        N_PGL_2_2
+37        00        not supported
+38        CC        PERCENT_R_PGL_2_2
+39        00        not supported
+3A        00        not supported
+3B        26        T_PGL_2_3
+3C        28        N_PGL_2_3
+3D        00        not supported
+3E        CC        PERCENT_R_PGL_2_3
+3F        00        not supported
+40        00        not supported
+41        26        T_PGL_2_4
+42        28        N_PGL_2_4
+43        00        not supported
+44        CC        PERCENT_R_PGL_2_4
+45        00        not supported
+46        00        not supported
+47        1E        T_PGL_2_PLS
+48        28        N_PGL_2_PLS
+49        00        not supported
+4A        CC        PERCENT_R_PGL_2_PLS
+4B        00        not supported
+4C        00        not supported
+4D        5A        T_FMC_S
+4E        28        N_FMC_S
+4F        47        P_FMC_S
+50        02        T_START_11
+51        28        N_START_11
+52        00        F_START_11
+53        CC        PERCENT_R_START_11
+54        00        TEMP_START_11
+55        02        T_START_12
+56        28        N_START_12
+57        00        F_START_12
+58        CC        PERCENT_R_START_12
+59        14        TEMP_START_12
+5A        02        T_START_13
+5B        28        N_START_13
+5C        00        F_START_13
+5D        CC        PERCENT_R_START_13
+5E        28        TEMP_START_13
+5F        02        T_START_14
+60        28        N_START_14
+61        00        F_START_14
+62        CC        PERCENT_R_START_14
+63        3F        TEMP_START_14
+64        0A        T_START_1_PLS
+65        4D        N_START_1_PLS
+66        00        F_START_1_PLS
+67        CC        PERCENT_R_START_1_PLS
+68        04        T_START_21
+69        28        N_START_21
+6A        00        F_START_21
+6B        CC        PERCENT_R_START_21
+6C        00        P_LO_START_21
+6D        FF        P_HI_START_21
+6E        00        GRAD_P_START_21
+6F        04        T_START_22
+70        28        N_START_22
+71        00        F_START_22
+72        CC        PERCENT_R_START_22
+73        00        P_LO_START_22
+74        FF        P_HI_START_22
+75        00        GRAD_P_START_22
+76        04        T_START_23
+77        28        N_START_23
+78        00        F_START_23
+79        CC        PERCENT_R_START_23
+7A        00        P_LO_START_23
+7B        FF        P_HI_START_23
+7C        00        GRAD_P_START_23
+7D        04        T_START_24
+7E        28        N_START_24
+7F        00        F_START_24
+80        CC        PERCENT_R_START_24
+81        00        P_LO_START_24
+82        FF        P_HI_START_24
+83        00        GRAD_P_START_24
+84        00        T_START_2_PLS
+85        4D        N_START_2_PLS
+86        00        F_START_2_PLS
+87        CC        PERCENT_R_START_2_PLS
+88        00        not supported
+89        00        not supported
+8A        00        not supported
+8B        42        T_START_31
+8C        7E        N_START_31
+8D        7F        F_START_31
+8E        CC        PERCENT_R_START_31
+8F        47        P_LO_START_31
+90        FF        P_HI_START_31
+91        7C        GRAD_P_START_31
+92        42        T_START_32
+93        84        N_START_32
+94        7F        F_START_32
+95        CC        PERCENT_R_START_32
+96        47        P_LO_START_32
+97        FF        P_HI_START_32
+98        7C        GRAD_P_START_32
+99        42        T_START_33
+9A        89        N_START_33
+9B        7F        F_START_33
+9C        CC        PERCENT_R_START_33
+9D        47        P_LO_START_33
+9E        FF        P_HI_START_33
+9F        7C        GRAD_P_START_33
+A0        42        T_START_34
+A1        91        N_START_34
+A2        7F        F_START_34
+A3        CC        PERCENT_R_START_34
+A4        47        P_LO_START_34
+A5        FF        P_HI_START_34
+A6        7C        GRAD_P_START_34
+A7        14        T_START_3_PLS
+A8        4D        N_START_3_PLS
+A9        47        F_START_3_PLS
+AA        CC        PERCENT_R_START_3_PLS
+AB        00        not supported
+AC        00        not supported
+AD        00        not supported
+AE        00        T_START_41
+AF        7E        N_START_41
+B0        7F        F_START_41
+B1        CC        PERCENT_R_START_41
+B2        47        P_LO_START_41
+B3        FF        P_HI_START_41
+B4        7C        GRAD_P_START_41
+B5        00        not supported
+B6        00        T_START_42
+B7        84        N_START_42
+B8        7F        F_START_42
+B9        CC        PERCENT_R_START_42
+BA        47        P_LO_START_42
+BB        FF        P_HI_START_42
+BC        7C        GRAD_P_START_42
+BD        00        not supported
+BE        00        T_START_43
+BF        89        N_START_43
+C0        7F        F_START_43
+C1        CC        PERCENT_R_START_43
+C2        47        P_LO_START_43
+C3        FF        P_HI_START_43
+C4        7C        GRAD_P_START_43
+C5        00        not supported
+C6        00        T_START_44
+C7        91        N_START_44
+C8        7F        F_START_44
+C9        CC        PERCENT_R_START_44
+CA        47        P_LO_START_44
+CB        FF        P_HI_START_44
+CC        7C        GRAD_P_START_44
+CD        00        not supported
+CE        00        T_START_4_PLS
+CF        4D        N_START_4_PLS
+D0        47        F_START_4_PLS
+D1        CC        PERCENT_R_START_4_PLS
+D2        00        not supported
+D3        00        not supported
+D4        00        not supported
+D5        00        not supported
+D6        14        T_START_51
+D7        87        N_START_51
+D8        7F        F_START_51
+D9        CC        PERCENT_R_START_51
+DA        00        not supported
+DB        73        P_HI_START_51
+DC        00        not supported
+DD        00        not supported
+DE        14        T_START_52
+DF        8D        N_START_52
+E0        7F        F_START_52
+E1        CC        PERCENT_R_START_52
+E2        00        not supported
+E3        73        P_HI_START_52
+E4        00        not supported
+E5        00        not supported
+E6        14        T_START_53
+E7        93        N_START_53
+E8        7F        F_START_53
+E9        CC        PERCENT_R_START_53
+EA        00        not supported
+EB        73        P_HI_START_53
+EC        00        not supported
+ED        00        not supported
+EE        14        T_START_54
+EF        9B        N_START_54
+F0        7F        F_START_54
+F1        CC        PERCENT_R_START_54
+F2        00        not supported
+F3        73        P_HI_START_54
+F4        00        not supported
+F5        00        not supported
+F6        14        T_START_5_PLS
+F7        5D        N_START_5_PLS
+F8        47        F_START_5_PLS
+F9        CC        PERCENT_R_START_5_PLS
+FA        00        not supported
+FB        00        not supported
+FC        00        not supported
+FD        00        not supported
+FE        32        T_START_61
+FF        B1        N_START_61
+100       7F        F_START_61
+101       C8        PERCENT_R_START_61
+102       73        P_HI_START_61
+103       00        not supported
+104       32        T_START_62
+105       B1        N_START_62
+106       7F        F_START_62
+107       C8        PERCENT_R_START_62
+108       73        P_HI_START_62
+109       00        not supported
+10A       32        T_START_63
+10B       B1        N_START_63
+10C       7F        F_START_63
+10D       C8        PERCENT_R_START_63
+10E       73        P_HI_START_63
+10F       00        not supported
+110       32        T_START_64
+111       B1        N_START_64
+112       7F        F_START_64
+113       C8        PERCENT_R_START_64
+114       73        P_HI_START_64
+115       00        not supported
+116       5A        T_START_6_PLS
+117       79        N_START_6_PLS
+118       47        F_START_6_PLS
+119       C8        PERCENT_R_START_6_PLS
+11A       00        not supported
+11B       00        not supported
+11C       14        T_GPR
+11D       B1        N_GPR
+11E       7F        F_GPR
+11F       00        not supported
+120       3C        T_FMM_1
+121       B1        N_FMM_1
+122       7F        F_FMM_1
+123       22        PERCENT_R_LO_FMM_1
+124       B4        PERCENT_R_HI_FMM_1
+125       02        GRAD_R_FMM_1
+126       00        not supported
+127       14        T_FMM_2
+128       B1        N_FMM_2
+129       7F        F_FMM_2
+12A       22        PERCENT_R_LO_FMM_2
+12B       22        PERCENT_R_HI_FMM_2
+12C       57        GRAD_R_FMM_2
+12D       00        not supported
+12E       14        T_GPR_PLS
+12F       79        N_GPR_PLS
+130       47        F_GPR_PLS
+131       00        not supported
+132       46        T_FMM_1_PLS
+133       79        N_FMM_1_PLS
+134       47        F_FMM_1_PLS
+135       34        PERCENT_R_LO_FMM_1_PLS
+136       B4        PERCENT_R_HI_FMM_1_PLS
+137       02        GRAD_R_FMM_1_PLS
+138       00        not supported
+139       14        T_FMM_2_PLS
+13A       79        N_FMM_2_PLS
+13B       47        F_FMM_2_PLS
+13C       34        PERCENT_R_LO_FMM_2_PLS
+13D       34        PERCENT_R_HI_FMM_2_PLS
+13E       57        GRAD_R_FMM_2_PLS
+13F       00        not supported
+140       00        not supported
+141       66        TEMP_EGT_LO_FL_IOS
+142       50        T_WARMSTART
+143       79        N_FL_IOS
+144       00        F_FL_IOS
+145       56        PERCENT_R_FL_IOS
+146       66        GRAD_R_FL_IOS
+147       14        T_BO_1_FL
+148       74        N_BO_1_FL
+149       00        PERCENT_R_BO_1_FL
+14A       14        T_BO_2_FL
+14B       4D        N_BO_2_FL
+14C       00        PERCENT_R_BO_2_FL
+14D       1E        T_BO_3_FL
+14E       3E        N_BO_3_FL
+14F       00        PERCENT_R_BO_3_FL
+150       28        T_BO_4_FL
+151       8C        N_BO_4_FL
+152       00        PERCENT_R_BO_4_FL
+153       0A        T_BO_1_PL
+154       57        N_BO_1_PL
+155       00        PERCENT_R_BO_1_PL
+156       0A        T_BO_2_PL
+157       44        N_BO_2_PL
+158       00        PERCENT_R_BO_2_PL
+159       14        T_BO_3_PL
+15A       2C        N_BO_3_PL
+15B       00        PERCENT_R_BO_3_PL
+15C       28        T_BO_4_PL
+15D       8C        N_BO_4_PL
+15E       00        PERCENT_R_BO_4_PL
+15F       14        T_BO_1_S
+160       74        N_BO_1_S
+161       00        PERCENT_R_BO_1_S
+162       14        T_BO_2_S
+163       4D        N_BO_2_S
+164       00        PERCENT_R_BO_2_S
+165       32        T_BO_3_S
+166       3E        N_BO_3_S
+167       00        PERCENT_R_BO_3_S
+168       28        T_BO_4_S
+169       8C        N_BO_4_S
+16A       00        PERCENT_R_BO_4_S
+16B       0A        T_BO_1_PLS
+16C       57        N_BO_1_PLS
+16D       00        PERCENT_R_BO_1_PLS
+16E       0E        T_BO_2_PLS
+16F       44        N_BO_2_PLS
+170       00        PERCENT_R_BO_2_PLS
+171       1E        T_BO_3_PLS
+172       2C        N_BO_3_PLS
+173       00        PERCENT_R_BO_3_PLS
+174       28        T_BO_4_PLS
+175       8C        N_BO_4_PLS
+176       00        PERCENT_R_BO_4_PLS
+177       1E        T_BO_OVH
+178       1E        N_BO_OVH
+179       46        T_COOL_1
+17A       8C        N_COOL_1
+17B       5A        T_COOL_2
+17C       8C        N_COOL_2
+17D       5A        T_FMC
+17E       28        N_FMC
+17F       47        P_FMC
+180       46        R_REF_SANITY_LO
+181       AE        R_REF_SANITY_HI
+182       B1        N_FL
+183       7F        F_FL
+184       22        PERCENT_R_FL
+185       66        GRAD_R_FL
+186       66        TEMP_EGT_LO_FL
+187       C8        T_FL
+188       02        T_BO_1_FL_IOS
+189       30        T_BO_2_FL_IOS
+18A       02        T_BO_3_FL_IOS
+18B       08        T_BO_4_FL_IOS
+18C       C8        N_BO_1_FL_IOS
+18D       C8        N_BO_2_FL_IOS
+18E       B4        N_BO_3_FL_IOS
+18F       79        N_PL
+190       47        F_PL
+191       34        PERCENT_R_PL
+192       70        GRAD_R_PL
+193       66        TEMP_EGT_LO_PL
+194       8C        N_BO_4_FL_IOS
+195       00        PERCENT_R_BO_1_FL_IOS
+196       00        PERCENT_R_BO_2_FL_IOS
+197       00        PERCENT_R_BO_3_FL_IOS
+198       00        PERCENT_R_BO_4_FL_IOS
+199       02        NO_STARTS_WITH_R_REF
+19A       02        NO_BURNOUTS_UNTIL_NEXT_R_REF_1
+19B       14        NO_BURNOUTS_UNTIL_NEXT_R_REF_2
+19C       0A        NO_R_REF_MEASUREMENTS_SWITCH_CYCLE_1_2
+19D       19        GP_CONTROL_P
+19E       16        GP_CONTROL_TN
+19F       00        not supported
+1A0       01        GP_CONTROL_TA
+1A1       A0        GRAD_BREAK
+1A2       69        GP_CONTROL_MAX_U
+1A3       00        not supported
+1A4       00        not supported
+1A5       00        not supported
+1A6       00        not supported
+1A7       00        not supported
+1A8       00        not supported
+1A9       00        not supported
+1AA       00        not supported
+1AB       00        not supported
+1AC       00        not supported
+1AD       00        not supported
+1AE       00        not supported
+1AF       00        not supported
+1B0       00        not supported
+1B1       00        not supported
+1B2       00        not supported
+1B3       02        NO_FLAMEOUTS_MAX
+1B4       06        NO_TEMPORARY_INTERLOCKS_MAX
+1B5       00        not supported
+1B6       00        not supported
+1B7       00        not supported
+1B8       1E        T_CPU_OFF
+1B9       0A        No_Overheating_max
+1BA       01        CORE_CFG_FLAGS_0
+1BB       00        TEMP_EGT_LO_START_41
+1BC       00        TEMP_EGT_LO_START_42
+1BD       00        TEMP_EGT_LO_START_43
+1BE       00        TEMP_EGT_LO_START_44
+1BF       00        TEMP_EGT_LO_START_4_PLS
+1C0       00        TEMP_EGT_LO_START_51
+1C1       00        TEMP_EGT_LO_START_52
+1C2       00        TEMP_EGT_LO_START_53
+1C3       00        TEMP_EGT_LO_START_54
+1C4       00        TEMP_EGT_LO_START_5_PLS
+1C5       00        TEMP_EGT_LO_START_61
+1C6       00        TEMP_EGT_LO_START_62
+1C7       00        TEMP_EGT_LO_START_63
+1C8       00        TEMP_EGT_LO_START_64
+1C9       00        TEMP_EGT_LO_START_6_PLS
+1CA       6C        TEMP_EGT_LO_GPR
+1CB       78        TEMP_EGT_LO_FMM_1
+1CC       78        TEMP_EGT_LO_FMM_2
+1CD       6C        TEMP_EGT_LO_GPR_PLS
+1CE       78        TEMP_EGT_LO_FMM_1_PLS
+1CF       78        TEMP_EGT_LO_FMM_2_PLS
+1D0       14        T_EGT_WAIT_PL
+1D1       14        T_FMC_S_IOS
+1D2       28        N_FMC_S_IOS
+1D3       47        P_FMC_S_IOS
+1D4       0C        T_START_1_IOS
+1D5       4D        N_START_1_IOS
+1D6       00        F_START_1_IOS
+1D7       E4        PERCENT_R_START_1_IOS
+1D8       02        T_START_2_IOS
+1D9       4D        N_START_2_IOS
+1DA       00        F_START_2_IOS
+1DB       E4        PERCENT_R_START_2_IOS
+1DC       00        P_LO_START_2_IOS
+1DD       FF        P_HI_START_2_IOS
+1DE       00        GRAD_P_START_2_IOS
+1DF       26        T_START_3_IOS
+1E0       4D        N_START_3_IOS
+1E1       47        F_START_3_IOS
+1E2       E4        PERCENT_R_START_3_IOS
+1E3       00        P_LO_START_3_IOS
+1E4       FF        P_HI_START_3_IOS
+1E5       00        GRAD_P_START_3_IOS
+1E6       00        T_START_4_IOS
+1E7       79        N_START_4_IOS
+1E8       47        F_START_4_IOS
+1E9       E4        PERCENT_R_START_4_IOS
+1EA       00        P_LO_START_4_IOS
+1EB       FF        P_HI_START_4_IOS
+1EC       00        GRAD_P_START_4_IOS
+1ED       00        TEMP_EGT_LO_START_4_IOS
+1EE       00        T_START_5_IOS
+1EF       79        N_START_5_IOS
+1F0       47        F_START_5_IOS
+1F1       E4        PERCENT_R_START_5_IOS
+1F2       73        P_HI_START_5_IOS
+1F3       00        TEMP_EGT_LO_START_5_IOS
+1F4       00        T_START_6_IOS
+1F5       79        N_START_6_IOS
+1F6       47        F_START_6_IOS
+1F7       E4        PERCENT_R_START_6_IOS
+1F8       73        P_HI_START_6_IOS
+1F9       00        TEMP_EGT_LO_START_6_IOS
+1FA       0A        T_GPR_IOS
+1FB       79        N_GPR_IOS
+1FC       47        F_GPR_IOS
+1FD       6C        TEMP_EGT_LO_GPR_IOS
+1FE       22        T_FMM_1_IOS
+1FF       79        N_FMM_1_IOS
+200       47        F_FMM_1_IOS
+201       56        PERCENT_R_LO_FMM_1_IOS
+202       B4        PERCENT_R_HI_FMM_1_IOS
+203       02        GRAD_R_FMM_1_IOS
+204       78        TEMP_EGT_LO_FMM_1_IOS
+205       02        T_FMM_2_IOS
+206       79        N_FMM_2_IOS
+207       00        F_FMM_2_IOS
+208       56        PERCENT_R_LO_FMM_2_IOS
+209       2A        PERCENT_R_HI_FMM_2_IOS
+20A       57        GRAD_R_FMM_2_IOS
+20B       78        TEMP_EGT_LO_FMM_2_IOS
+20C       8C        TEMP_IOS_MAX
+20D       01        T_FL_IOS
+20E       00        P_LO_START_2_PLS
+20F       FF        P_HI_START_2_PLS
+210       00        GRAD_P_START_2_PLS
+211       0A        P_LO_START_3_PLS
+212       FF        P_HI_START_3_PLS
+213       00        GRAD_P_START_3_PLS
+214       0A        P_LO_START_4_PLS
+215       FF        P_HI_START_4_PLS
+216       00        GRAD_P_START_4_PLS
+217       73        P_HI_START_5_PLS
+218       73        P_HI_START_6_PLS
+219       08        T_RAMP_DN_1
+21A       00        PERCENT_R_RAMP_DN_1
+21B       22        PERCENT_R_RAMP_DN_1_THRE
+21C       73        P_HI_RAMP_DN_1
+21D       66        GRAD_R_RAMP_DN_1
+21E       66        TEMP_EGT_LO_RAMP_DN
+21F       14        T_RAMP_DN_2
+220       B1        N_RAMP_DN_2
+221       67        F_RAMP_DN_2
+222       00        PERCENT_R_RAMP_DN_2
+223       22        PERCENT_R_RAMP_DN_2_THRE
+224       73        P_HI_RAMP_DN_2
+225       66        GRAD_R_RAMP_DN_2
+226       20        T_RAMP_DN_3
+227       AD        N_RAMP_DN_3
+228       50        F_RAMP_DN_3
+229       00        PERCENT_R_RAMP_DN_3
+22A       22        PERCENT_R_RAMP_DN_3_THRE
+22B       73        P_HI_RAMP_DN_3
+22C       66        GRAD_R_RAMP_DN_3
+22D       14        T_RAMP_UP_1
+22E       00        PERCENT_R_RAMP_UP_1
+22F       34        PERCENT_R_RAMP_UP_1_THRE
+230       73        P_HI_RAMP_UP_1
+231       66        GRAD_R_RAMP_UP_1
+232       66        TEMP_EGT_LO_RAMP_UP
+233       14        T_RAMP_UP_2
+234       7E        N_RAMP_UP_2
+235       50        F_RAMP_UP_2
+236       00        PERCENT_R_RAMP_UP_2
+237       34        PERCENT_R_RAMP_UP_2_THRE
+238       73        P_HI_RAMP_UP_2
+239       66        GRAD_R_RAMP_UP_2
+23A       14        T_RAMP_UP_3
+23B       97        N_RAMP_UP_3
+23C       66        F_RAMP_UP_3
+23D       00        PERCENT_R_RAMP_UP_3
+23E       34        PERCENT_R_RAMP_UP_3_THRE
+23F       73        P_HI_RAMP_UP_3
+240       66        GRAD_R_RAMP_UP_3
+241       0A        T_COOL_1_IOS
+242       50        T_COOL_2_IOS
+243       8C        N_COOL_1_IOS
+244       8C        N_COOL_2_IOS
+245       09        ID_CU_01
+246       03        ID_CU_23
+247       33        ID_CU_45
+248       18        ID_CU_67
+249       41        ID_CU_CL1
+24A       01        ID_CU_CL2
+24B       09        ID_DS_01
+24C       03        ID_DS_23
+24D       33        ID_DS_45
+24E       27        ID_DS_67
+24F       41        ID_DS_CL1
+250       01        ID_DS_CL2
+251       00        not supported
+252       00        not supported
+253       00        not supported
+254       00        not supported
+255       00        not supported
+256       00        not supported
+257       00        not supported
+258       00        not supported
+259       00        not supported
+25A       00        not supported
+25B       00        not supported
+25C       00        not supported
+25D       00        not supported
+25E       00        not supported
+25F       00        not supported
+260       00        not supported
+261       E1        CONFIG_BYTE_1_DEFAULT
+262       30        CONFIG_BYTE_2_DEFAULT
+263       0C        CONFIG_BYTE_3_DEFAULT
+264       00        CONFIG_BYTE_4_DEFAULT
+265       6E        TEMP_START_FROM_PAUSE_APPL
+266       80        TEMP_BURNOUT_TO_PAUSE_APPL
+267       7A        TEMP_RAMP_DN_APPL
+268       69        TEMP_RAMP_UP_APPL
+269       64        TEMP_PLS_LO
+26A       6C        TEMP_CV_PULSING_LO
+26B       6E        TEMP_CV_PULSING_HI
+26C       78        CCTC_TEMP_TARGET_PH
+26D       78        CCTC_TEMP_TARGET_AH
+26E       0A        T_DELAY_CV_OPEN
+26F       06        T_DELAY_CP_ON
+270       2D        TEMP_CPC_LO
+271       50        TEMP_CPC_1
+272       5A        TEMP_CPC_2
+273       6E        TEMP_CPC_HI
+274       64        TEMP_CPC_SUPPRESS
+275       50        U_EFF_CPC_1
+276       51        U_EFF_CPC_LO
+277       05        GRAD_CPC_UP_DOWN
+278       00        unused
+279       74        TEMP_START_FROM_PAUSE_AH
+27A       72        TEMP_RAMP_UP_AH
+27B       7C        TEMP_RAMP_DN_AH
+27C       80        TEMP_BURNOUT_TO_PAUSE_AH
+27D       5A        TEMP_VF_ON
+27E       C4        TEMP_EGT_MAX
+27F       64        CV_PULSING_LO_OPEN
+280       C8        CV_PULSING_LO_CLOSED
+281       C8        CV_PULSING_HI_OPEN
+282       64        CV_PULSING_HI_CLOSED
+283       54        T_CPC_WAIT_LO
+284       1E        TEMP_CPC_WAIT_HI
+285       03        U_DPSTART_OFFSET
+286       05        U_DP_OFFSET
+287       0A        CCTC_TEMP_DIFF_START_FROM_PAUSE
+288       0A        CCTC_TEMP_DIFF_BURNOUT_TO_PAUSE
+289       0F        CCTC_TEMP_DIFF_RAMP_UP
+28A       00        not supported
+28B       00        not supported
+28C       00        not supported
+28D       00        not supported
+28E       00        not supported
+28F       00        not supported
+290       00        not supported
+291       00        not supported
+292       00        not supported
+293       00        not supported
+294       00        not supported
+295       00        not supported
+296       00        not supported
+297       00        not supported
+298       00        not supported
+299       00        not supported
+29A       00        not supported
+29B       00        not supported
+29C       00        not supported
+29D       00        not supported
+29E       00        not supported
+29F       00        not supported
+2A0       00        not supported
+2A1       00        not supported
+2A2       00        not supported
+2A3       00        not supported
+2A4       00        not supported
+2A5       00        not supported
+2A6       00        not supported
+2A7       00        not supported
+2A8       00        not supported
+2A9       00        not supported
+2AA       00        not supported
+2AB       00        not supported
+2AC       00        not supported
+2AD       00        not supported
+2AE       11        DATASET_IDENTIFIER_LOW
+2AF       00        DATASET_IDENTIFIER_HIGH
+; Run-time data
+2B0       00        not supported
+2B1       00        not supported
+2B2       00        not supported
+2B3       00        not supported
+2B4       00        not supported
+2B5       00        not supported
+2B6       00        not supported
+2B7       00        not supported
+2B8       00        not supported
+2B9       00        not supported
+2BA       00        not supported
+2BB       00        not supported
+2BC       00        not supported
+2BD       00        not supported
+2BE       00        not supported
+2BF       00        not supported
+2C0       00        not supported
+2C1       00        not supported
+2C2       00        not supported
+2C3       00        not supported
+2C4       00        not supported
+2C5       00        not supported
+2C6       00        not supported
+2C7       00        not supported
+2C8       00        not supported
+2C9       00        not supported
+2CA       00        not supported
+2CB       00        not supported
+2CC       00        not supported
+2CD       00        not supported
+2CE       00        not supported
+2CF       00        not supported
+2D0       00        not supported
+2D1       00        not supported
+2D2       00        not supported
+2D3       00        not supported
+2D4       00        not supported
+2D5       00        not supported
+2D6       00        not supported
+2D7       00        not supported
+2D8       00        not supported
+2D9       00        not supported
+2DA       00        not supported
+2DB       00        not supported
+2DC       00        not supported
+2DD       00        not supported
+2DE       00        not supported
+2DF       00        not supported
+2E0       00        not supported
+2E1       00        not supported
+2E2       00        not supported
+2E3       00        not supported
+2E4       00        not supported
+2E5       00        not supported
+2E6       00        not supported
+2E7       00        not supported
+2E8       00        not supported
+2E9       00        not supported
+2EA       00        not supported
+2EB       00        not supported
+2EC       00        not supported
+2ED       00        not supported
+2EE       00        not supported
+2EF       00        not supported
+2F0       00        not supported
+2F1       00        not supported
+2F2       00        not supported
+2F3       00        not supported
+2F4       00        not supported
+2F5       00        not supported
+2F6       00        not supported
+2F7       00        not supported
+2F8       00        not supported
+2F9       00        not supported
+2FA       00        not supported
+2FB       00        not supported
+2FC       00        not supported
+2FD       00        not supported
+2FE       00        not supported
+2FF       00        not supported
+300       00        not supported
+301       00        not supported
+302       00        not supported
+303       00        not supported
+304       00        not supported
+305       00        not supported
+306       00        not supported
+307       3E        MQB_ADJUST_GLOBAL_FIX
+308       03        MQB_MOT_RPM_T_QUALIFY
+309       3C        MQB_MOT_RPM_MIN_RUNNING
+30A       1E        MQB_MOT_RPM_MAX_OFF
+30B       01        MQB_FUEL_TYPE_HEATER
+30C       00        MQB_E85_THRESHOLD_FOR_DP_CORR
+30D       64        MQB_E85_LEVEL_MAX
+30E       0A        MQB_CV_COUNT_ANTICLOG_ACTIVATION
+30F       0A        MQB_CV_DURATION_ANTICLOG_ACTIVATION
+310       00        not supported
+311       41        MQB_CP_T_MAX_RESTWAERMEBETRIEB
+312       64        MQB_CP_DC_THERMOMGMT_LEVEL1
+313       50        MQB_CP_DC_THERMOMGMT_LEVEL2
+314       32        MQB_CP_T_HANDSHAKE_CAN
+315       69        MQB_LV_THRESHOLD_OP_BEM
+316       00        not supported
+317       01        MQB_MOTWARM_MIN_H
+318       2C        MQB_MOTWARM_MIN_L
+319       3C        MQB_MOTWARM_MAX
+31A       3C        MQB_MOTWARM_K_BRENNBETRIEB
+31B       00        not supported
+31C       00        not supported
+31D       1E        MQB_T_RESET_SIG_COOLANT_WARM
+31E       1E        MQB_T_CW_WARM_MAX
+31F       28        MQB_CP_T_PWM_WAIT_MAX
+320       28        MQB_CP_TEMP_PWM_WAIT_MAX
+321       05        MQB_CP_RAMP_DOWN
+322       00        MQB_SH_OFF_MOTOR_OFF
+323       64        MQB_THRESHOLD_SIGNAL_STATUS_ON
+324       00        MQB_RTP_COUNTER_KL15_NEGEDGE
+325       42        MQB_APP_RUNTIME_MAX
+326       06        MQB_AT_SPEED_MAX
+327       06        MQB_AT_DIFF_MAX
+328       8C        MQB_CP_DC_MAX
+329       3C        MQB_VF_T_WAIT_MAX
+32A       1E        MQB_VF_TEMP_WAIT_MAX
+32B       00        not supported
+32C       00        not supported
+32D       00        not supported
+32E       00        not supported
+32F       00        not supported
+330       00        not supported
+331       00        not supported
+332       00        not supported
+333       00        not supported
+334       00        not supported
+335       00        not supported
+336       00        not supported
+337       00        not supported
+338       00        not supported
+339       00        not supported
+33A       00        not supported
+33B       00        not supported
+33C       00        not supported
+33D       00        not supported
+33E       00        not supported
+33F       00        not supported
+340       00        not supported
+341       00        not supported
+342       00        not supported
+343       00        not supported
+344       00        not supported
+345       00        not supported
+346       00        not supported
+347       00        not supported
+348       00        not supported
+349       00        not supported
+34A       00        not supported
+34B       00        not supported
+34C       00        not supported
+34D       00        not supported
+34E       00        not supported
+34F       35        MQB_SPARE_PART_NUMBER_00
+350       51        MQB_SPARE_PART_NUMBER_01
+351       30        MQB_SPARE_PART_NUMBER_02
+352       39        MQB_SPARE_PART_NUMBER_03
+353       36        MQB_SPARE_PART_NUMBER_04
+354       33        MQB_SPARE_PART_NUMBER_05
+355       32        MQB_SPARE_PART_NUMBER_06
+356       37        MQB_SPARE_PART_NUMBER_07
+357       32        MQB_SPARE_PART_NUMBER_08
+358       48        MQB_SPARE_PART_NUMBER_09
+359       20        MQB_SPARE_PART_NUMBER_10
+35A       30        MQB_LOG_SW_BLOCK_NUMBER_DATASET_00
+35B       30        MQB_LOG_SW_BLOCK_NUMBER_DATASET_01
+35C       37        MQB_LOG_SW_BLOCK_NUMBER_DATASET_02
+35D       35        MQB_LOG_SW_BLOCK_NUMBER_DATASET_03
+35E       53        MQB_SYSTEM_NAME_00
+35F       54        MQB_SYSTEM_NAME_01
+360       48        MQB_SYSTEM_NAME_02
+361       2D        MQB_SYSTEM_NAME_03
+362       4D        MQB_SYSTEM_NAME_04
+363       51        MQB_SYSTEM_NAME_05
+364       42        MQB_SYSTEM_NAME_06
+365       20        MQB_SYSTEM_NAME_07
+366       20        MQB_SYSTEM_NAME_08
+367       20        MQB_SYSTEM_NAME_09
+368       20        MQB_SYSTEM_NAME_10
+369       20        MQB_SYSTEM_NAME_11
+36A       20        MQB_SYSTEM_NAME_12
+36B       00        not supported
+36C       00        not supported
+36D       00        not supported
+36E       00        not supported
+36F       00        not supported
+370       00        not supported
+371       00        not supported
+372       00        not supported
+373       00        not supported
+374       00        not supported
+375       00        not supported
+376       00        not supported
+377       00        not supported
+378       00        not supported
+379       00        not supported
+37A       00        not supported
+37B       00        not supported
+37C       00        not supported
+37D       00        not supported
+37E       00        not supported
+37F       00        not supported
+380       00        not supported
+381       00        not supported
+382       00        not supported
+383       00        not supported
+384       00        not supported
+385       00        not supported
+386       00        not supported
+387       00        not supported
+388       00        not supported
+389       00        not supported
+38A       00        not supported
+38B       00        not supported
+38C       00        not supported
+38D       00        not supported
+38E       00        not supported
+38F       00        not supported
+390       00        not supported
+391       00        not supported
+392       00        not supported
+393       00        not supported
+394       00        not supported
+395       00        not supported
+396       00        not supported
+397       00        not supported
+398       00        not supported
+399       00        not supported
+39A       00        not supported
+39B       00        not supported
+39C       00        not supported
+39D       00        not supported
+39E       00        not supported
+39F       00        not supported
+3A0       00        not supported
+3A1       00        not supported
+3A2       00        not supported
+3A3       00        not supported
+3A4       00        not supported
+3A5       00        not supported
+3A6       00        not supported
+3A7       00        not supported
+3A8       00        not supported
+3A9       00        not supported
+3AA       00        not supported
+3AB       00        not supported
+3AC       00        not supported
+3AD       00        not supported
+3AE       00        not supported
+3AF       00        not supported
+3B0       00        not supported
+3B1       00        not supported
+3B2       00        not supported
+3B3       00        not supported
+3B4       00        not supported
+3B5       A5        MQB_CV_TEMP_MAX_CV_FULL_POWERED_1
+3B6       A5        MQB_CV_TEMP_MIN_CV_NOT_POWERED_1
+3B7       A5        MQB_CV_NODE1_TEMP_1
+3B8       C8        MQB_CV_NODE1_DC_1
+3B9       A5        MQB_CV_NODE2_TEMP_1
+3BA       C8        MQB_CV_NODE2_DC_1
+3BB       A5        MQB_CV_NODE3_TEMP_1
+3BC       C8        MQB_CV_NODE3_DC_1
+3BD       A5        MQB_CV_NODE4_TEMP_1
+3BE       C8        MQB_CV_NODE4_DC_1
+3BF       A5        MQB_CV_NODE5_TEMP_1
+3C0       C8        MQB_CV_NODE5_DC_1
+3C1       28        MQB_CP_T_MIN_TEMP_1
+3C2       78        MQB_CP_T_MIN_DC_1
+3C3       72        MQB_CP_T_MAX_TEMP_1
+3C4       78        MQB_CP_T_MAX_DC_1
+3C5       32        MQB_CP_T_NODE1_TEMP_1
+3C6       64        MQB_CP_T_NODE1_DC_1
+3C7       3C        MQB_CP_T_NODE2_TEMP_1
+3C8       4B        MQB_CP_T_NODE2_DC_1
+3C9       68        MQB_CP_T_NODE3_TEMP_1
+3CA       4B        MQB_CP_T_NODE3_DC_1
+3CB       05        MQB_DP_VOLTAGE_OFFSET_1
+3CC       00        not supported
+3CD       00        not supported
+3CE       00        not supported
+3CF       00        not supported
+3D0       00        not supported
+3D1       00        not supported
+3D2       A5        MQB_CV_TEMP_MAX_CV_FULL_POWERED_2
+3D3       A5        MQB_CV_TEMP_MIN_CV_NOT_POWERED_2
+3D4       A5        MQB_CV_NODE1_TEMP_2
+3D5       C8        MQB_CV_NODE1_DC_2
+3D6       A5        MQB_CV_NODE2_TEMP_2
+3D7       C8        MQB_CV_NODE2_DC_2
+3D8       A5        MQB_CV_NODE3_TEMP_2
+3D9       C8        MQB_CV_NODE3_DC_2
+3DA       A5        MQB_CV_NODE4_TEMP_2
+3DB       C8        MQB_CV_NODE4_DC_2
+3DC       A5        MQB_CV_NODE5_TEMP_2
+3DD       C8        MQB_CV_NODE5_DC_2
+3DE       28        MQB_CP_T_MIN_TEMP_2
+3DF       78        MQB_CP_T_MIN_DC_2
+3E0       72        MQB_CP_T_MAX_TEMP_2
+3E1       78        MQB_CP_T_MAX_DC_2
+3E2       32        MQB_CP_T_NODE1_TEMP_2
+3E3       64        MQB_CP_T_NODE1_DC_2
+3E4       3C        MQB_CP_T_NODE2_TEMP_2
+3E5       4B        MQB_CP_T_NODE2_DC_2
+3E6       68        MQB_CP_T_NODE3_TEMP_2
+3E7       4B        MQB_CP_T_NODE3_DC_2
+3E8       05        MQB_DP_VOLTAGE_OFFSET_2
+3E9       00        not supported
+3EA       00        not supported
+3EB       00        not supported
+3EC       00        not supported
+3ED       00        not supported
+3EE       00        not supported
+3EF       A5        MQB_CV_TEMP_MAX_CV_FULL_POWERED_3
+3F0       A5        MQB_CV_TEMP_MIN_CV_NOT_POWERED_3
+3F1       A5        MQB_CV_NODE1_TEMP_3
+3F2       C8        MQB_CV_NODE1_DC_3
+3F3       A5        MQB_CV_NODE2_TEMP_3
+3F4       C8        MQB_CV_NODE2_DC_3
+3F5       A5        MQB_CV_NODE3_TEMP_3
+3F6       C8        MQB_CV_NODE3_DC_3
+3F7       A5        MQB_CV_NODE4_TEMP_3
+3F8       C8        MQB_CV_NODE4_DC_3
+3F9       A5        MQB_CV_NODE5_TEMP_3
+3FA       C8        MQB_CV_NODE5_DC_3
+3FB       28        MQB_CP_T_MIN_TEMP_3
+3FC       78        MQB_CP_T_MIN_DC_3
+3FD       72        MQB_CP_T_MAX_TEMP_3
+3FE       78        MQB_CP_T_MAX_DC_3
+3FF       32        MQB_CP_T_NODE1_TEMP_3
+400       64        MQB_CP_T_NODE1_DC_3
+401       3C        MQB_CP_T_NODE2_TEMP_3
+402       4B        MQB_CP_T_NODE2_DC_3
+403       68        MQB_CP_T_NODE3_TEMP_3
+404       4B        MQB_CP_T_NODE3_DC_3
+405       05        MQB_DP_VOLTAGE_OFFSET_3
+406       00        not supported
+407       00        not supported
+408       00        not supported
+409       00        not supported
+40A       00        not supported
+40B       00        not supported
+40C       A5        MQB_CV_TEMP_MAX_CV_FULL_POWERED_4
+40D       A5        MQB_CV_TEMP_MIN_CV_NOT_POWERED_4
+40E       A5        MQB_CV_NODE1_TEMP_4
+40F       C8        MQB_CV_NODE1_DC_4
+410       A5        MQB_CV_NODE2_TEMP_4
+411       C8        MQB_CV_NODE2_DC_4
+412       A5        MQB_CV_NODE3_TEMP_4
+413       C8        MQB_CV_NODE3_DC_4
+414       A5        MQB_CV_NODE4_TEMP_4
+415       C8        MQB_CV_NODE4_DC_4
+416       A5        MQB_CV_NODE5_TEMP_4
+417       C8        MQB_CV_NODE5_DC_4
+418       28        MQB_CP_T_MIN_TEMP_4
+419       78        MQB_CP_T_MIN_DC_4
+41A       72        MQB_CP_T_MAX_TEMP_4
+41B       78        MQB_CP_T_MAX_DC_4
+41C       32        MQB_CP_T_NODE1_TEMP_4
+41D       64        MQB_CP_T_NODE1_DC_4
+41E       3C        MQB_CP_T_NODE2_TEMP_4
+41F       4B        MQB_CP_T_NODE2_DC_4
+420       68        MQB_CP_T_NODE3_TEMP_4
+421       4B        MQB_CP_T_NODE3_DC_4
+422       05        MQB_DP_VOLTAGE_OFFSET_4
+423       00        not supported
+424       00        not supported
+425       00        not supported
+426       00        not supported
+427       00        not supported
+428       00        not supported
+429       A5        MQB_CV_TEMP_MAX_CV_FULL_POWERED_5
+42A       A5        MQB_CV_TEMP_MIN_CV_NOT_POWERED_5
+42B       A5        MQB_CV_NODE1_TEMP_5
+42C       C8        MQB_CV_NODE1_DC_5
+42D       A5        MQB_CV_NODE2_TEMP_5
+42E       C8        MQB_CV_NODE2_DC_5
+42F       A5        MQB_CV_NODE3_TEMP_5
+430       C8        MQB_CV_NODE3_DC_5
+431       A5        MQB_CV_NODE4_TEMP_5
+432       C8        MQB_CV_NODE4_DC_5
+433       A5        MQB_CV_NODE5_TEMP_5
+434       C8        MQB_CV_NODE5_DC_5
+435       28        MQB_CP_T_MIN_TEMP_5
+436       78        MQB_CP_T_MIN_DC_5
+437       72        MQB_CP_T_MAX_TEMP_5
+438       78        MQB_CP_T_MAX_DC_5
+439       32        MQB_CP_T_NODE1_TEMP_5
+43A       64        MQB_CP_T_NODE1_DC_5
+43B       3C        MQB_CP_T_NODE2_TEMP_5
+43C       4B        MQB_CP_T_NODE2_DC_5
+43D       68        MQB_CP_T_NODE3_TEMP_5
+43E       4B        MQB_CP_T_NODE3_DC_5
+43F       05        MQB_DP_VOLTAGE_OFFSET_5
+440       00        not supported
+441       00        not supported
+442       00        not supported
+443       00        not supported
+444       00        not supported
+445       00        not supported
+446       A5        MQB_CV_TEMP_MAX_CV_FULL_POWERED_6
+447       A5        MQB_CV_TEMP_MIN_CV_NOT_POWERED_6
+448       A5        MQB_CV_NODE1_TEMP_6
+449       C8        MQB_CV_NODE1_DC_6
+44A       A5        MQB_CV_NODE2_TEMP_6
+44B       C8        MQB_CV_NODE2_DC_6
+44C       A5        MQB_CV_NODE3_TEMP_6
+44D       C8        MQB_CV_NODE3_DC_6
+44E       A5        MQB_CV_NODE4_TEMP_6
+44F       C8        MQB_CV_NODE4_DC_6
+450       A5        MQB_CV_NODE5_TEMP_6
+451       C8        MQB_CV_NODE5_DC_6
+452       28        MQB_CP_T_MIN_TEMP_6
+453       78        MQB_CP_T_MIN_DC_6
+454       72        MQB_CP_T_MAX_TEMP_6
+455       78        MQB_CP_T_MAX_DC_6
+456       32        MQB_CP_T_NODE1_TEMP_6
+457       64        MQB_CP_T_NODE1_DC_6
+458       3C        MQB_CP_T_NODE2_TEMP_6
+459       4B        MQB_CP_T_NODE2_DC_6
+45A       68        MQB_CP_T_NODE3_TEMP_6
+45B       4B        MQB_CP_T_NODE3_DC_6
+45C       05        MQB_DP_VOLTAGE_OFFSET_6
+45D       00        not supported
+45E       00        not supported
+45F       00        not supported
+460       00        not supported
+461       00        not supported
+462       00        not supported
+463       00        not supported
+464       00        not supported
+465       00        not supported
+466       00        not supported
+467       00        not supported
+468       00        not supported
+469       00        not supported
+46A       00        not supported
+46B       00        not supported
+46C       00        not supported
+46D       00        not supported
+46E       00        not supported
+46F       00        not supported
+470       00        not supported
+471       00        not supported
+472       00        not supported
+473       00        not supported
+474       00        not supported
+475       00        not supported
+476       00        not supported
+477       00        not supported
+478       00        not supported
+479       00        not supported
+47A       00        not supported
+47B       00        not supported
+47C       00        not supported
+47D       00        not supported
+47E       00        not supported
+47F       00        not supported
+480       00        not supported
+481       00        not supported
+482       00        not supported
+483       00        not supported
+484       00        not supported
+485       00        not supported
+486       00        not supported
+487       00        not supported
+488       00        not supported
+489       00        not supported
+48A       00        not supported
+48B       00        not supported
+48C       00        not supported
+48D       00        not supported
+48E       00        not supported
+48F       00        not supported
+490       00        not supported
+491       00        not supported
+492       00        not supported
+493       00        not supported
+494       00        not supported
+495       00        not supported
+496       00        not supported
+497       00        not supported
+498       00        not supported
+499       00        not supported
+49A       00        not supported
+49B       00        not supported
+49C       00        not supported
+49D       00        not supported
+49E       00        not supported
+49F       00        not supported
+4A0       00        not supported
+4A1       00        not supported
+4A2       00        not supported
+4A3       00        not supported
+4A4       00        not supported
+4A5       00        not supported
+4A6       00        not supported
+4A7       00        not supported
+4A8       00        not supported
+4A9       00        not supported
+4AA       00        not supported
+4AB       00        not supported
+4AC       00        not supported
+4AD       00        not supported
+4AE       00        not supported
+4AF       00        not supported
+4B0       00        not supported
+4B1       00        not supported
+4B2       00        not supported
+4B3       00        CORE_RT_FLAGS_0
+4B4       00        COUNTER_OVERHEATING
+4B5       00        COUNTER_STARTS_WITH_R_REF
+4B6       00        COUNTER_GLOW_CYCLES
+4B7       5E        R_REF
+4B8       00        COUNTER_R_REF_MEASUREMENTS
+4B9       00        COUNTER_TEMPORARY_INTERLOCKS
+4BA       00        COUNTER_STARTS_LOW
+4BB       00        COUNTER_STARTS_HIGH
+4BC       96        CO2_CORR
+4BD       1C        R_25
+4BE       71        U_LO
+4BF       28        T_U_LO
+4C0       AA        U_HI
+4C1       0A        T_U_HI
+4C2       69        U_LO_GP_ACTIVE
+4C3       28        T_U_LO_GP_ACTIVE
+4C4       00        COUNTER_START_EXIT_PAUSE
+4C5       00        CONFIG_BYTE_1_CURRENT
+4C6       00        CONFIG_BYTE_2_CURRENT
+4C7       00        CONFIG_BYTE_3_CURRENT
+4C8       00        CONFIG_BYTE_4_CURRENT
+4C9       00        not supported
+4CA       00        not supported
+4CB       00        not supported
+4CC       00        not supported
+4CD       00        not supported
+4CE       00        not supported
+4CF       00        not supported
+4D0       00        not supported
+4D1       00        not supported
+4D2       00        not supported
+4D3       00        not supported
+4D4       00        not supported
+4D5       00        not supported
+4D6       00        not supported
+4D7       00        not supported
+4D8       00        not supported
+4D9       00        not supported
+4DA       00        not supported
+4DB       00        not supported
+4DC       00        not supported
+4DD       00        not supported
+4DE       00        not supported
+4DF       00        not supported
+4E0       00        not supported
+4E1       00        not supported
+4E2       00        not supported
+4E3       00        not supported
+4E4       00        not supported
+4E5       00        not supported
+4E6       00        not supported
+4E7       00        not supported
+4E8       00        not supported
+4E9       00        not supported
+4EA       00        not supported
+4EB       00        not supported
+4EC       00        not supported
+4ED       00        not supported
+4EE       00        not supported
+4EF       00        not supported
+4F0       00        not supported
+4F1       00        not supported
+4F2       00        not supported
+4F3       00        not supported
+4F4       00        COUNTER_CP_SHORT_CIRCUIT
+4F5       01        NO_CP_SHORT_CIRCUIT_MAX
+4F6       00        not supported
+4F7       00        not supported
+4F8       00        not supported
+4F9       00        not supported
+4FA       00        not supported
+4FB       00        not supported
+4FC       00        not supported
+4FD       00        not supported
+4FE       00        not supported
+4FF       00        not supported
+500       00        not supported
+501       00        not supported
+502       00        not supported
+503       00        not supported
+504       00        not supported
+505       00        not supported
+506       00        not supported
+507       00        not supported
+508       00        not supported
+509       00        not supported
+50A       00        not supported
+50B       00        not supported
+50C       00        not supported
+50D       00        not supported
+50E       00        not supported
+50F       00        not supported
+510       00        not supported
+511       00        not supported
+512       00        not supported
+513       00        not supported
+514       00        not supported
+515       00        not supported
+516       00        not supported
+517       00        not supported
+518       00        not supported
+519       00        not supported
+51A       00        not supported
+51B       00        not supported
+51C       00        not supported
+51D       00        not supported
+51E       00        not supported
+51F       00        not supported
+520       00        not supported
+521       00        not supported
+522       00        not supported
+523       00        not supported
+524       00        not supported
+525       00        not supported
+526       00        not supported
+527       00        not supported
+528       00        not supported
+529       00        not supported
+52A       00        not supported
+52B       00        not supported
+52C       00        not supported
+52D       00        not supported
+52E       00        not supported
+52F       00        not supported
+530       00        not supported
+531       00        not supported
+532       00        not supported
+533       00        not supported
+534       00        not supported
+535       00        not supported
+536       00        not supported
+537       00        not supported
+538       00        not supported
+539       00        not supported
+53A       00        not supported
+53B       00        not supported
+53C       00        not supported
+53D       00        not supported
+53E       00        not supported
+53F       00        not supported
+540       00        not supported
+541       00        not supported
+542       00        not supported
+543       00        not supported
+544       00        not supported
+545       00        not supported
+546       00        not supported
+547       00        not supported
+548       00        not supported
+549       00        not supported
+54A       00        not supported
+54B       00        not supported
+54C       00        not supported
+54D       00        not supported
+54E       00        not supported
+54F       00        not supported
+550       00        not supported
+551       00        not supported
+552       00        not supported
+553       00        not supported
+554       00        not supported
+555       00        not supported
+556       00        not supported
+557       00        not supported
+558       00        not supported
+559       00        not supported
+55A       00        not supported
+55B       00        not supported
+55C       00        not supported
+55D       00        not supported
+55E       00        not supported
+55F       00        not supported
+560       00        not supported
+561       00        not supported
+562       00        not supported
+563       00        not supported
+564       00        not supported
+565       00        not supported
+566       00        not supported
+567       00        not supported
+568       00        not supported
+569       00        not supported
+56A       00        not supported
+56B       00        not supported
+56C       00        not supported
+56D       00        not supported
+56E       00        not supported
+56F       00        not supported
+570       00        not supported
+571       00        not supported
+572       00        not supported
+573       00        not supported
+574       00        not supported
+575       00        not supported
+576       00        not supported
+577       00        not supported
+578       00        not supported
+579       00        not supported
+57A       00        not supported
+57B       00        not supported
+57C       00        not supported
+57D       00        not supported
+57E       00        not supported
+57F       00        not supported
+580       00        not supported
+581       00        not supported
+582       00        not supported
+583       00        not supported
+584       00        not supported
+585       00        not supported
+586       00        not supported
+587       00        not supported
+588       00        not supported
+589       00        not supported
+58A       00        not supported
+58B       00        not supported
+58C       00        not supported
+58D       00        not supported
+58E       00        not supported
+58F       00        not supported
+590       00        not supported
+591       00        not supported
+592       00        not supported
+593       00        not supported
+594       00        not supported
+595       00        not supported
+596       00        not supported
+597       00        not supported
+598       00        not supported
+599       00        not supported
+59A       00        not supported
+59B       00        not supported
+59C       00        not supported
+59D       00        not supported
+59E       00        not supported
+59F       00        not supported
+5A0       00        not supported
+5A1       00        not supported
+5A2       00        not supported
+5A3       00        not supported
+5A4       00        not supported
+5A5       00        not supported
+5A6       00        not supported
+5A7       00        not supported
+5A8       00        not supported
+5A9       00        not supported
+5AA       00        not supported
+5AB       00        not supported
+5AC       00        not supported
+5AD       00        not supported
+5AE       00        not supported
+5AF       00        not supported
+5B0       00        not supported
+5B1       00        not supported
+5B2       00        not supported
+5B3       00        not supported
+5B4       00        not supported
+5B5       00        not supported
+5B6       00        not supported
+5B7       1E        MQB_T_HEAT_MIN
+5B8       04        MQB_T_HEAT_MIN_TEMP_RTO
+5B9       07        MQB_ADJUST_GLOBAL_VAR
+5BA       6E        MQB_AT_MAX_AH_ON
+5BB       7C        MQB_AT_AH_OFF
+5BC       06        MQB_AT_HYSTERESIS_NAR
+5BD       FF        MQB_CP_RPM_MOT_MAX_CP_POWERED
+5BE       71        MQB_LV_THRESHOLD_OP_NORMAL
+5BF       28        MQB_LV_T_QUAL_OP_NORMAL
+5C0       0A        MQB_EKP_DELAY
+5C1       14        MQB_CP_EXT_TEMP_MIN
+5C2       1E        MQB_CP_EXT_T_MIN
+5C3       24        MQB_CP_EXT_T_MAX
+5C4       01        MQB_CP_NO_SHORT_CIRCUIT_MAX
+5C5       8C        MQB_Knockout_Tmr_1
+5C6       14        MQB_Knockout_Tmr_2
+5C7       B4        MQB_LoVoBo_Tmr
+5C8       00        not supported
+5C9       00        not supported
+5CA       00        not supported
+5CB       00        not supported
+5CC       00        not supported
+5CD       00        not supported
+5CE       00        not supported
+5CF       00        not supported
+5D0       19        MQB_ADJUST_VARIANT_1
+5D1       70        MQB_TEMP_MOT_MIN_AH_ON_1
+5D2       80        MQB_TEMP_MOT_MAX_AH_OFF_1
+5D3       05        MQB_CV_DIFF_TEMP_COOLANT_1
+5D4       28        MQB_CV_RPM_MOT_MIN_CV_NOT_POWERED_1
+5D5       5F        MQB_CV_TEMP_MIN_USE_REMAINING_HEAT_1
+5D6       7F        MQB_EKP_MIN_FUEL_LEVEL_EKP_OFF_1
+5D7       0A        MQB_EKP_FUEL_CONSUMPTION_FOR_ACTIVATION_1
+5D8       0F        MQB_EKP_ACTIVATION_DURATION_1
+5D9       00        MQB_EKP_MIN_ACTIVATION_PERIOD_1
+5DA       55        MQB_TEMP_VF_ON_1
+5DB       80        MQB_HEAT_TEMP_RTO_1
+5DC       64        MQB_HEAT_TEMP_RTU_1
+5DD       7A        MQB_HEAT_TEMP_TLO_1
+5DE       62        MQB_HEAT_TEMP_TLU_1
+5DF       80        MQB_HEAT_TEMP_RTOZ_1
+5E0       74        MQB_HEAT_TEMP_RTUZ_1
+5E1       7C        MQB_HEAT_TEMP_TLOZ_1
+5E2       72        MQB_HEAT_TEMP_TLUZ_1
+5E3       7A        MQB_TEMP_HEAT_OUTPUT_PH_1
+5E4       7A        MQB_TEMP_HEAT_OUTPUT_AH_1
+5E5       00        not supported
+5E6       00        not supported
+5E7       00        not supported
+5E8       00        not supported
+5E9       00        not supported
+5EA       00        not supported
+5EB       00        not supported
+5EC       00        not supported
+5ED       18        MQB_ADJUST_VARIANT_2
+5EE       70        MQB_TEMP_MOT_MIN_AH_ON_2
+5EF       80        MQB_TEMP_MOT_MAX_AH_OFF_2
+5F0       05        MQB_CV_DIFF_TEMP_COOLANT_2
+5F1       28        MQB_CV_RPM_MOT_MIN_CV_NOT_POWERED_2
+5F2       5F        MQB_CV_TEMP_MIN_USE_REMAINING_HEAT_2
+5F3       7F        MQB_EKP_MIN_FUEL_LEVEL_EKP_OFF_2
+5F4       0A        MQB_EKP_FUEL_CONSUMPTION_FOR_ACTIVATION_2
+5F5       0F        MQB_EKP_ACTIVATION_DURATION_2
+5F6       00        MQB_EKP_MIN_ACTIVATION_PERIOD_2
+5F7       5A        MQB_TEMP_VF_ON_2
+5F8       7C        MQB_HEAT_TEMP_RTO_2
+5F9       5B        MQB_HEAT_TEMP_RTU_2
+5FA       71        MQB_HEAT_TEMP_TLO_2
+5FB       58        MQB_HEAT_TEMP_TLU_2
+5FC       80        MQB_HEAT_TEMP_RTOZ_2
+5FD       74        MQB_HEAT_TEMP_RTUZ_2
+5FE       7C        MQB_HEAT_TEMP_TLOZ_2
+5FF       72        MQB_HEAT_TEMP_TLUZ_2
+600       73        MQB_TEMP_HEAT_OUTPUT_PH_2
+601       78        MQB_TEMP_HEAT_OUTPUT_AH_2
+602       00        not supported
+603       00        not supported
+604       00        not supported
+605       00        not supported
+606       00        not supported
+607       00        not supported
+608       00        not supported
+609       00        not supported
+60A       13        MQB_ADJUST_VARIANT_3
+60B       70        MQB_TEMP_MOT_MIN_AH_ON_3
+60C       80        MQB_TEMP_MOT_MAX_AH_OFF_3
+60D       05        MQB_CV_DIFF_TEMP_COOLANT_3
+60E       28        MQB_CV_RPM_MOT_MIN_CV_NOT_POWERED_3
+60F       5F        MQB_CV_TEMP_MIN_USE_REMAINING_HEAT_3
+610       7F        MQB_EKP_MIN_FUEL_LEVEL_EKP_OFF_3
+611       0A        MQB_EKP_FUEL_CONSUMPTION_FOR_ACTIVATION_3
+612       0F        MQB_EKP_ACTIVATION_DURATION_3
+613       00        MQB_EKP_MIN_ACTIVATION_PERIOD_3
+614       5A        MQB_TEMP_VF_ON_3
+615       7C        MQB_HEAT_TEMP_RTO_3
+616       5B        MQB_HEAT_TEMP_RTU_3
+617       71        MQB_HEAT_TEMP_TLO_3
+618       58        MQB_HEAT_TEMP_TLU_3
+619       80        MQB_HEAT_TEMP_RTOZ_3
+61A       74        MQB_HEAT_TEMP_RTUZ_3
+61B       7C        MQB_HEAT_TEMP_TLOZ_3
+61C       72        MQB_HEAT_TEMP_TLUZ_3
+61D       73        MQB_TEMP_HEAT_OUTPUT_PH_3
+61E       7A        MQB_TEMP_HEAT_OUTPUT_AH_3
+61F       00        not supported
+620       00        not supported
+621       00        not supported
+622       00        not supported
+623       00        not supported
+624       00        not supported
+625       00        not supported
+626       00        not supported
+627       12        MQB_ADJUST_VARIANT_4
+628       70        MQB_TEMP_MOT_MIN_AH_ON_4
+629       80        MQB_TEMP_MOT_MAX_AH_OFF_4
+62A       05        MQB_CV_DIFF_TEMP_COOLANT_4
+62B       28        MQB_CV_RPM_MOT_MIN_CV_NOT_POWERED_4
+62C       5F        MQB_CV_TEMP_MIN_USE_REMAINING_HEAT_4
+62D       7F        MQB_EKP_MIN_FUEL_LEVEL_EKP_OFF_4
+62E       0A        MQB_EKP_FUEL_CONSUMPTION_FOR_ACTIVATION_4
+62F       0F        MQB_EKP_ACTIVATION_DURATION_4
+630       00        MQB_EKP_MIN_ACTIVATION_PERIOD_4
+631       5A        MQB_TEMP_VF_ON_4
+632       7C        MQB_HEAT_TEMP_RTO_4
+633       5B        MQB_HEAT_TEMP_RTU_4
+634       71        MQB_HEAT_TEMP_TLO_4
+635       58        MQB_HEAT_TEMP_TLU_4
+636       80        MQB_HEAT_TEMP_RTOZ_4
+637       74        MQB_HEAT_TEMP_RTUZ_4
+638       7C        MQB_HEAT_TEMP_TLOZ_4
+639       72        MQB_HEAT_TEMP_TLUZ_4
+63A       73        MQB_TEMP_HEAT_OUTPUT_PH_4
+63B       78        MQB_TEMP_HEAT_OUTPUT_AH_4
+63C       00        not supported
+63D       00        not supported
+63E       00        not supported
+63F       00        not supported
+640       00        not supported
+641       00        not supported
+642       00        not supported
+643       00        not supported
+644       10        MQB_ADJUST_VARIANT_5
+645       70        MQB_TEMP_MOT_MIN_AH_ON_5
+646       80        MQB_TEMP_MOT_MAX_AH_OFF_5
+647       05        MQB_CV_DIFF_TEMP_COOLANT_5
+648       28        MQB_CV_RPM_MOT_MIN_CV_NOT_POWERED_5
+649       5F        MQB_CV_TEMP_MIN_USE_REMAINING_HEAT_5
+64A       7F        MQB_EKP_MIN_FUEL_LEVEL_EKP_OFF_5
+64B       0A        MQB_EKP_FUEL_CONSUMPTION_FOR_ACTIVATION_5
+64C       0F        MQB_EKP_ACTIVATION_DURATION_5
+64D       00        MQB_EKP_MIN_ACTIVATION_PERIOD_5
+64E       55        MQB_TEMP_VF_ON_5
+64F       80        MQB_HEAT_TEMP_RTO_5
+650       64        MQB_HEAT_TEMP_RTU_5
+651       7A        MQB_HEAT_TEMP_TLO_5
+652       62        MQB_HEAT_TEMP_TLU_5
+653       80        MQB_HEAT_TEMP_RTOZ_5
+654       74        MQB_HEAT_TEMP_RTUZ_5
+655       7C        MQB_HEAT_TEMP_TLOZ_5
+656       72        MQB_HEAT_TEMP_TLUZ_5
+657       7A        MQB_TEMP_HEAT_OUTPUT_PH_5
+658       7A        MQB_TEMP_HEAT_OUTPUT_AH_5
+659       00        not supported
+65A       00        not supported
+65B       00        not supported
+65C       00        not supported
+65D       00        not supported
+65E       00        not supported
+65F       00        not supported
+660       00        not supported
+661       10        MQB_ADJUST_VARIANT_6
+662       70        MQB_TEMP_MOT_MIN_AH_ON_6
+663       80        MQB_TEMP_MOT_MAX_AH_OFF_6
+664       05        MQB_CV_DIFF_TEMP_COOLANT_6
+665       28        MQB_CV_RPM_MOT_MIN_CV_NOT_POWERED_6
+666       5F        MQB_CV_TEMP_MIN_USE_REMAINING_HEAT_6
+667       7F        MQB_EKP_MIN_FUEL_LEVEL_EKP_OFF_6
+668       0A        MQB_EKP_FUEL_CONSUMPTION_FOR_ACTIVATION_6
+669       0F        MQB_EKP_ACTIVATION_DURATION_6
+66A       00        MQB_EKP_MIN_ACTIVATION_PERIOD_6
+66B       5A        MQB_TEMP_VF_ON_6
+66C       7C        MQB_HEAT_TEMP_RTO_6
+66D       5B        MQB_HEAT_TEMP_RTU_6
+66E       71        MQB_HEAT_TEMP_TLO_6
+66F       58        MQB_HEAT_TEMP_TLU_6
+670       80        MQB_HEAT_TEMP_RTOZ_6
+671       74        MQB_HEAT_TEMP_RTUZ_6
+672       7C        MQB_HEAT_TEMP_TLOZ_6
+673       72        MQB_HEAT_TEMP_TLUZ_6
+674       73        MQB_TEMP_HEAT_OUTPUT_PH_6
+675       78        MQB_TEMP_HEAT_OUTPUT_AH_6
+676       00        not supported
+677       00        not supported
+678       00        not supported
+679       00        not supported
+67A       00        not supported
+67B       00        not supported
+67C       00        not supported
+67D       00        not supported
+67E       03        MQB_CONFIG_CODING_BYTE_1
+67F       04        MQB_CONFIG_CODING_BYTE_2
+680       00        MQB_RTP_FLAGS_EOL
+681       AA        MQB_WBUS_SH
+682       01        MQB_AM_PATH
+683       B4        MQB_Laufzeitbegrenzung_Tmr
+684       01        MQB_Laufzeitbegrenzung_aktiv
+685       00        MQB_Laufzeitbegrenzung_CNT
+686       AA        MQB_PROD_OEM_FSP_LOCK_0
+687       AA        MQB_PROD_OEM_FSP_LOCK_1
+688       AA        MQB_PROD_OEM_FSP_LOCK_2
+689       AA        MQB_PROD_OEM_FSP_LOCK_3
+68A       00        not supported
+68B       00        not supported
+68C       00        not supported
+68D       00        not supported
+68E       00        not supported
+68F       00        not supported
+690       00        not supported
+691       00        not supported
+692       00        not supported
+693       00        not supported
+694       00        not supported
+695       00        not supported
+696       00        not supported
+697       00        not supported
+698       00        not supported
+699       00        not supported
+69A       00        not supported
+69B       35        MQB_ECU_HW_NUMBER_00
+69C       51        MQB_ECU_HW_NUMBER_01
+69D       30        MQB_ECU_HW_NUMBER_02
+69E       39        MQB_ECU_HW_NUMBER_03
+69F       36        MQB_ECU_HW_NUMBER_04
+6A0       33        MQB_ECU_HW_NUMBER_05
+6A1       32        MQB_ECU_HW_NUMBER_06
+6A2       37        MQB_ECU_HW_NUMBER_07
+6A3       32        MQB_ECU_HW_NUMBER_08
+6A4       48        MQB_ECU_HW_NUMBER_09
+6A5       20        MQB_ECU_HW_NUMBER_10
+6A6       30        MQB_ECU_HW_VERSION_NUMBER_00
+6A7       30        MQB_ECU_HW_VERSION_NUMBER_01
+6A8       38        MQB_ECU_HW_VERSION_NUMBER_02
+6A9       00        not supported
+6AA       00        not supported
+6AB       00        not supported
+6AC       00        not supported
+6AD       00        not supported
+6AE       00        not supported
+6AF       00        not supported
+6B0       00        not supported
+6B1       00        not supported
+6B2       00        not supported
+6B3       00        not supported
+6B4       00        not supported
+6B5       00        not supported
+6B6       00        not supported
+6B7       00        not supported
